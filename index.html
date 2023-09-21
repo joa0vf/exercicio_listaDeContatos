@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculadora de mMdias</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+      <header>
+         <img src="images/logo.png" alt="ícone de contado">
+         <h1>Lista de contatos</h1>
+      </header>
+      <form id="formContato">
+         <input type="text" placeholder="Nome do Contato" id="nContato" required>
+         <input type="number" placeholder="Telefone" id="tel" min="11" required>
+         <button type="submit">Cadastrar</button>
+      </form>
+      <div class="tabela">
+         <table cellspacing = 0><!--Serve para tirar o espaçamento padrão da borda que as tabelas tem-->
+            <thead>
+               <tr>
+                  <th>Contatos cadastrados</th>
+               </tr>
+            </thead>
+            <tbody>
+            </tbody>
+         </table>
+      </div>  
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
